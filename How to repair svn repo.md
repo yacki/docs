@@ -41,4 +41,4 @@ Now I downloaded the svn to my Windows computer, and commit a test file to serve
 So the latest version is 21423 now.
 
 Then I import the sencond dump file:
-      svnadmin load --bypass-prop-validation newrepo/ < ~/svn_20150721/my_repo_21422_21546.dump 
+            svnadmin load --bypass-prop-validation newrepo/ < ~/svn_20150721/my_repo_21422_21546.dump 
