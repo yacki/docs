@@ -21,7 +21,9 @@ svnadmin: E200014: Checksum mismatch while reading representation:
 
 Version 21423 is corrupt for some unknown reason.
 
+###
 ### First, I export two parts of the svn:
+###
 svnadmin dump my_repo/ > ~/svn_20150721/my_repo.dump
 It will stop at 21422 because 21423 is corrupted.
 
